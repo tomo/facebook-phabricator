@@ -8,21 +8,7 @@
   background-repeat: no-repeat;
 }
 
-@media
-only screen and (min-device-pixel-ratio: 1.5),
-only screen and (-webkit-min-device-pixel-ratio: 1.5) {
-  .sprite-actions {
-    background-image: url(/rsrc/image/sprite-actions-X2.png);
-    background-size: 150px 175px;
-  }
-}
-
-
-.actions-close-dark, .device-desktop .actions-close-grey.phui-icon-view:hover {
-  background-position: 0px 0px;
-}
-
-.actions-down-dark, .device-desktop .actions-down-grey.phui-icon-view:hover {
+@median-view:hover {
   background-position: -25px 0px;
 }
 
@@ -53,15 +39,6 @@ only screen and (-webkit-min-device-pixel-ratio: 1.5) {
 .actions-star-dark, .device-desktop .actions-star-grey.phui-icon-view:hover {
   background-position: -50px -25px;
 }
-
-.actions-tag-dark, .device-desktop .actions-tag-grey.phui-icon-view:hover {
-  background-position: -75px -25px;
-}
-
-.actions-token-dark, .device-desktop .actions-token-grey.phui-icon-view:hover {
-  background-position: -100px -25px;
-}
-
 .actions-up-dark, .device-desktop .actions-up-grey.phui-icon-view:hover {
   background-position: -125px -25px;
 }
@@ -76,26 +53,6 @@ only screen and (-webkit-min-device-pixel-ratio: 1.5) {
 
 .actions-down-grey {
   background-position: -50px -50px;
-}
-
-.actions-flag-grey {
-  background-position: -75px -50px;
-}
-
-.actions-heart-grey {
-  background-position: -100px -50px;
-}
-
-.actions-move-grey {
-  background-position: -125px -50px;
-}
-
-.actions-new-grey {
-  background-position: 0px -75px;
-}
-
-.actions-search-grey {
-  background-position: -25px -75px;
 }
 
 .actions-settings-grey {
